@@ -1,0 +1,676 @@
+@media (max-width:1000px) {
+    body {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    #purple-bar {
+        position: absolute;
+        background-color: #4A3174;
+        height: 8px;
+        padding-left: 986px;
+        border-radius: 0px;
+    }
+    
+    .text {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    .menu {
+        position: relative;
+        text-decoration: none;
+        padding-left: 50px;
+        top: 50px;
+    }
+    
+    #se-connecter {
+        text-align: center;
+        margin-left: 200px;
+    }
+    
+    #button-header {
+        position: relative;
+        left: 100px;
+        top: 40px;
+        background-color: #4A3174;
+        border: none;
+        border-radius: 3px;
+        height: 35px;
+        width: 150px;
+        color: #F2F2F2;
+    }
+    
+    #title {
+        position: relative;
+        width: 340px;
+        height: 72px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        top: 186px;
+        left: 300px;
+        font-size: 64px;
+        line-height: 75px;
+        color: #4A3174;
+    }
+    
+    #under-title {
+        position: relative;
+        top: 140px;
+        left: 300px;
+        color: #7A7A7A;
+    }
+    
+    #Search-bar {
+        position: relative;
+        background: #FFFFFF;
+        left: 200px;
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+        height: 40px;
+        width: 201px;
+        border-radius: 3px;
+    }
+    
+    .wrap {
+        width: 30%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .button {
+        background-color: #4A3174;
+        color: #F2F2F2;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    #button-Go-right-title {
+        position: relative;
+        height: 45px;
+        width: 63px;
+        left: 200px;
+        background: #4A3174;
+        border-radius: 0px 3px 3px 0px;
+        border: none;
+    }
+    
+    #logo {
+        position: relative;
+        top: 40px;
+        left: 150px;
+    }
+    
+    #Recommandations {
+        color: #4A3174;
+        margin-top: 201px;
+        margin-left: 179px;
+    }
+    
+    #book-recommandations {
+        position: relative;
+        top: 250px;
+        left: 110px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    #container1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        scale: 1px;
+    }
+    
+    .poster {
+        position: relative;
+        height: 488px;
+        width: 293px;
+        left: 10px;
+        margin-left: 17px;
+    }
+    
+    .img-poster {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 103px;
+        width: 253px;
+        height: 365px;
+        box-shadow: 0px 4px 20px 0px #9E9E9E;
+    }
+    
+    #poster1 {
+        position: relative;
+    }
+    
+    .text1-under-poster {
+        position: relative;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+        top: -100px;
+        left: 20px;
+    }
+    
+    .text2-under-poster {
+        position: relative;
+        color: #7A7A7A;
+        font-size: 16px;
+        left: 20px;
+        top: -100px;
+    }
+    
+    .price-poster {
+        position: relative;
+        color: #7A7A7A;
+        font-size: 16px;
+        left: 20px;
+        top: -100px;
+    }
+    
+    #poster2 {
+        position: relative;
+    }
+    
+    #poster3 {
+        position: relative;
+    }
+    
+    #title3 {
+        height: 40px;
+        padding-left: 179px;
+        color: #4A3174;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 40px;
+    }
+    
+    #book-title3 {
+        position: relative;
+        top: 90px;
+    }
+    
+    .horrizontal-poster {
+        position: relative;
+        left: 20px;
+        width:900px;
+       
+        height: 157px;
+        box-shadow: 0px 4px 20px 0px #9E9E9E;
+        margin-bottom: 20px;
+        transition: all .4s ease-in-out;
+        transform: scale(0.8);
+    }
+    
+    .horrizontal-poster:hover {
+        -webkit-transform: scale(0.6);
+        -ms-transform: scale(0.1);
+        transform: scale(1.02);
+    }
+    
+    #container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img-poster-h {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        height: 117px;
+        width: 81px;
+    }
+    
+    .pavé-césar {
+        position: relative;
+        color: #CBCBCB;
+        Width: 763px;
+        Height: 56px;
+        Top: -200px;
+        Left: 160px;
+        font-size: 14px;
+    }
+    
+    .text1-under-poster-h {
+        position: relative;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+        padding-left: 160px;
+        top: -150px;
+    }
+    
+    .text2-under-poster-h {
+        position: relative;
+        color: #7A7A7A;
+        font-size: 16px;
+        padding-left: 160px;
+        top: -160px;
+    }
+    
+    .price-poster-h {
+        position: relative;
+        color: #7A7A7A;
+        font-size: 16px;
+        left: 800px;
+        top: -220px;
+    }
+    
+    footer {
+        position: relative;
+        background-color: #4A3174;
+        width: 100%;
+    }
+    
+    #logo-footer {
+        position: relative;
+        top: 30px;
+        padding-left: 90px;
+    }
+    
+    #title-footer {
+        position: relative;
+        color: white;
+        Width: 900px;
+        Height: 40px;
+        margin-top: 34px;
+        padding-left: 200px;
+        top: -50px;
+        font-size: 34px;
+    }
+    
+    .menu-footer {
+        position: relative;
+        color: white;
+        font-weight: bold;
+        line-height: 40px;
+    }
+    
+    #block1 {
+        position: relative;
+        bottom: 50px;
+        margin-bottom: 10px;
+        padding-left: 200px;
+    }
+    
+    #block2 {
+        position: relative;
+        padding-left: 420px;
+        bottom: 225px;
+    }
+    
+    #block3 {
+        position: relative;
+        padding-left: 670px;
+        bottom: 434px;
+    }
+    
+    #under-text-footer {
+        position: relative;
+        left: 420px;
+        color: white;
+        font-weight: bold;
+        bottom: 220px;
+    }
+    
+    #under-text-footer2 {
+        position: relative;
+        left: 670px;
+        color: white;
+        font-weight: bold;
+        bottom: 430px;
+    }
+}
+
+body {
+    width: 1000px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#purple-bar {
+    position: absolute;
+    background-color: #4A3174;
+    height: 8px;
+    padding-left: 986px;
+    border-radius: 0px;
+}
+
+.text {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu {
+    position: relative;
+    text-decoration: none;
+    padding-left: 50px;
+    top: 50px;
+}
+
+#se-connecter {
+    text-align: center;
+    margin-left: 200px;
+}
+
+#button-header {
+    position: relative;
+    left: 100px;
+    top: 40px;
+    background-color: #4A3174;
+    border: none;
+    border-radius: 3px;
+    height: 35px;
+    width: 150px;
+    color: #F2F2F2;
+}
+
+#title {
+    position: relative;
+    width: 340px;
+    height: 72px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    top: 186px;
+    left: 300px;
+    font-size: 64px;
+    line-height: 75px;
+    color: #4A3174;
+}
+
+#under-title {
+    position: relative;
+    top: 140px;
+    left: 300px;
+    color: #7A7A7A;
+}
+
+#Search-bar {
+    position: relative;
+    background: #FFFFFF;
+    left: 200px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    height: 40px;
+    width: 201px;
+    border-radius: 3px;
+}
+
+.wrap {
+    width: 30%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    background-color: #4A3174;
+    color: #F2F2F2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#button-Go-right-title {
+    position: relative;
+    height: 45px;
+    width: 63px;
+    left: 200px;
+    background: #4A3174;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+}
+
+#logo {
+    position: relative;
+    top: 40px;
+    left: 150px;
+}
+
+#Recommandations {
+    color: #4A3174;
+    margin-top: 201px;
+    margin-left: 179px;
+}
+
+#book-recommandations {
+    position: relative;
+    top: 250px;
+    left: 110px;
+    height: 50px;
+    width: 50px;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    scale: 1px;
+}
+
+.poster {
+    position: relative;
+    height: 488px;
+    width: 293px;
+    left: 10px;
+    margin-left: 17px;
+}
+
+.img-poster {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 103px;
+    width: 253px;
+    height: 365px;
+    box-shadow: 0px 4px 20px 0px #9E9E9E;
+}
+
+#poster1 {
+    position: relative;
+}
+
+.text1-under-poster {
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    top: -100px;
+    left: 20px;
+}
+
+.text2-under-poster {
+    position: relative;
+    color: #7A7A7A;
+    font-size: 16px;
+    left: 20px;
+    top: -100px;
+}
+
+.price-poster {
+    position: relative;
+    color: #7A7A7A;
+    font-size: 16px;
+    left: 20px;
+    top: -100px;
+}
+
+#poster2 {
+    position: relative;
+}
+
+#poster3 {
+    position: relative;
+}
+
+#title3 {
+    height: 40px;
+    padding-left: 179px;
+    color: #4A3174;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+#book-title3 {
+    position: relative;
+    top: 90px;
+}
+
+.horrizontal-poster {
+    position: relative;
+    left: 20px;
+    width:900px;
+   
+    height: 157px;
+    box-shadow: 0px 4px 20px 0px #9E9E9E;
+    margin-bottom: 20px;
+    transition: all .4s ease-in-out;
+    transform: scale(0.8);
+}
+
+.horrizontal-poster:hover {
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.1);
+    transform: scale(1.02);
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-poster-h {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 117px;
+    width: 81px;
+}
+
+.pavé-césar {
+    position: relative;
+    color: #CBCBCB;
+    Width: 763px;
+    Height: 56px;
+    Top: -200px;
+    Left: 160px;
+    font-size: 14px;
+}
+
+.text1-under-poster-h {
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-left: 160px;
+    top: -150px;
+}
+
+.text2-under-poster-h {
+    position: relative;
+    color: #7A7A7A;
+    font-size: 16px;
+    padding-left: 160px;
+    top: -160px;
+}
+
+.price-poster-h {
+    position: relative;
+    color: #7A7A7A;
+    font-size: 16px;
+    left: 800px;
+    top: -220px;
+}
+
+footer {
+    position: relative;
+    background-color: #4A3174;
+    margin-top: 10px;
+    width: 90%;
+}
+
+#logo-footer {
+    position: relative;
+    top: 30px;
+    padding-left: 90px;
+}
+
+#title-footer {
+    position: relative;
+    color: white;
+    Width: 900px;
+    Height: 40px;
+    margin-top: 34px;
+    padding-left: 200px;
+    top: -50px;
+    font-size: 34px;
+}
+
+.menu-footer {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#block1 {
+    position: relative;
+    bottom: 50px;
+    margin-bottom: 10px;
+    padding-left: 200px;
+}
+
+#block2 {
+    position: relative;
+    padding-left: 420px;
+    bottom: 225px;
+}
+
+#block3 {
+    position: relative;
+    padding-left: 670px;
+    bottom: 434px;
+}
+
+#under-text-footer {
+    position: relative;
+    left: 420px;
+    color: white;
+    font-weight: bold;
+    bottom: 220px;
+}
+
+#under-text-footer2 {
+    position: relative;
+    left: 670px;
+    color: white;
+    font-weight: bold;
+    bottom: 430px;
+}
